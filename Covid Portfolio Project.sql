@@ -19,7 +19,7 @@ Order By 3,4
  Where location like '%states%'
  Order by 1,2
 
---Looking at the Total Cases vs Population
+--Looking at the Total Cases vs Populatio
 
 Select location, date, total_cases, total_deaths,population 
  From PortfolioProject..CovidDeaths
@@ -157,6 +157,3 @@ Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinatio
 	ON dea.location = vac.location
 	and dea.date = vac.date
 Where dea.continent is not Null
-
-Select *
-From PercentagePopulationVaccinated
