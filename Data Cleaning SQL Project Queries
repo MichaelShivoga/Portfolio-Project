@@ -1,3 +1,9 @@
+/*
+
+Cleaning Data in SQL Queries
+
+/*
+
 --Standardizing Date Format
 
 Select *
